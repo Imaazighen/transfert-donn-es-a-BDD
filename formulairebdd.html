@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulairebdd.css">
+</head>
+<body>
+<div class="formulaire-de-contact">
+
+        <h1>Formulaire de contact</h1> 
+
+        <form action="formulairebdd.php" method="post">
+
+    <div>
+
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required>
+
+    </div>
+ 
+    <div>
+
+        <label for="prénom">Prénom</label>
+        <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom" required>
+
+    </div>
+
+   <div>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Votre Email" required>
+
+    </div>
+
+    <div>
+
+        <label for="message">Message</label>
+        <textarea id="messages" name="messages" placeholder="Votre message" required></textarea>
+
+    </div>
+
+    <div>
+
+        <input type="submit" name="submit">
+
+    </div>
+
+        </form>
+</div>
+</body>
+</html>
